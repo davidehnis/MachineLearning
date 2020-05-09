@@ -1,8 +1,8 @@
-﻿using Microsoft.ML;
+﻿using core;
+using Microsoft.ML;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using core;
 
 namespace categorization
 {

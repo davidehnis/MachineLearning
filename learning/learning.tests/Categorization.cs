@@ -1,6 +1,6 @@
-using System.Threading.Tasks;
 using categorization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Threading.Tasks;
 
 namespace learning.tests
 {
