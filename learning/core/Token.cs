@@ -2,6 +2,9 @@
 
 namespace core
 {
+    /// <summary>
+    /// Represents "input" data to help build the categorization model
+    /// </summary>
     public class Token
     {
         public Token()

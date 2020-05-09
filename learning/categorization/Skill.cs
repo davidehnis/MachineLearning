@@ -6,6 +6,9 @@ using core;
 
 namespace categorization
 {
+    /// <summary>
+    /// Predicts the user's intent from a text sample
+    /// </summary>
     public class Skill : IPredictor
     {
         public async Task<Prediction> Predict(ISettings settings, string text)

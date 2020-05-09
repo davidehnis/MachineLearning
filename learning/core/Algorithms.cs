@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace core
 {
+    /// <summary>
+    /// A collection of helpful methods and extensions
+    /// </summary>
     public static class Algorithms
     {
         public static bool IsZero(this double left)

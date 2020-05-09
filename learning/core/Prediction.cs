@@ -2,6 +2,9 @@
 
 namespace core
 {
+    /// <summary>
+    /// The result of a prediction
+    /// </summary>
     public class Prediction
     {
         public Prediction(string value, double micro, double macro, double loss, double reduction)
