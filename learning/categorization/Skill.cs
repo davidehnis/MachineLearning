@@ -8,9 +8,10 @@ namespace categorization
 {
     public class Skill : IPredictor
     {
-        public async Task<Prediction> Predict(string modelPath, string text)
+        public async Task<Prediction> Predict(ISettings settings, string text)
         {
             var context = new MLContext(seed: 0);
+            var modelPath = settings.ModelPath;
 
             ITransformer model;
             if (File.Exists(modelPath))

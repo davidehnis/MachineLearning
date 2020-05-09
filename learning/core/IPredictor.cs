@@ -4,6 +4,6 @@ namespace core
 {
     public interface IPredictor
     {
-        Task<Prediction> Predict(string modelPath, string text);
+        Task<Prediction> Predict(ISettings settings, string text);
     }
 }
